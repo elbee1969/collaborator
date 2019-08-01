@@ -4,13 +4,21 @@ import java.time.LocalDate;
 
 public class Employee {
 
+// Comment
     private Long id;
+
     private String internId;
+
     private String firstName;
+
     private String lastName;
+
     private LocalDate birthDate;
+
     private LocalDate startDate;
+
     private Double salary;
+
     private LocalDate exitDate;
 
     public Employee(Long id, String internId, String firstName, String lastName,
